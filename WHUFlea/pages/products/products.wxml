@@ -1,0 +1,9 @@
+<search text="搜索物品" type="products" />
+
+<products top="{{top}}" products="{{products}}" />
+
+<loading atEnding="{{atEnding}}" />
+
+<view class="toPost" catchtap="goToPost">
+    <text class="icon icon-post"></text>
+</view>

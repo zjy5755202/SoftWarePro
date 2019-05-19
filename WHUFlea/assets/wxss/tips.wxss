@@ -1,0 +1,24 @@
+.tips {
+    position: relative;
+    padding: 12px 15px;
+    background: #fff;
+}
+
+.tip {
+    position: relative;
+    padding-left: 19px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tip::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 1px;
+    width: 7px;
+    height: 7px;
+    background: #555;
+    border-radius: 50%;
+}

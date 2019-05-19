@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "搜索结果",
+    "usingComponents": {
+        "products": "/components/products/products",
+        "loading": "/components/loading/loading"
+    }
+}

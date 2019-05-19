@@ -1,0 +1,7 @@
+{
+    "navigationStyle": "custom",
+    "usingComponents": {
+        "search": "/components/search/search",
+        "products": "/components/products/products"
+    }
+}

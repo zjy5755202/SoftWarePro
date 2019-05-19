@@ -1,0 +1,43 @@
+page {
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    z-index: 1;
+}
+
+.navigation text {
+    margin: 0 20px;
+    padding: 0 5px;
+    height: 38px;
+    line-height: 38px;
+    color: #888;
+    font-size: 15px;
+}
+
+.navigation text.active {
+    color: #276bc8;
+    border-bottom: 2px solid #276bc8;
+}
+
+swiper {
+    position: fixed;
+    top: 37px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+}
+
+scroll-view {
+    width: 100%;
+    height: 100%;
+}

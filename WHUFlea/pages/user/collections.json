@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "收藏",
+    "usingComponents": {
+        "products": "/components/products/products",
+        "loading": "/components/loading/loading"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "我发布的",
+    "usingComponents": {
+        "products": "/components/products/products",
+        "loading": "/components/loading/loading"
+    }
+}

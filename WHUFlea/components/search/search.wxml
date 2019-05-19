@@ -1,0 +1,10 @@
+<view class="search" style="height:{{top + height + 9}}px">
+    <input 
+    class="search-box" 
+    style="top:{{top}}px;left:{{left}}px;margin-right:{{right}}px;height:{{height}}px;border-radius:{{height}}px" 
+    placeholder="{{text}}" 
+    type="text" 
+    confirm-type="search" 
+    bindconfirm="search" 
+    />
+</view>

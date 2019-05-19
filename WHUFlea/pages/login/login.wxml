@@ -1,0 +1,13 @@
+<view class="cover">
+    <image class="cover-gif" src="/assets/img/wave.gif" mode="scaleToFill" />
+</view>
+
+<view class="form">
+    <view class="inputs">
+        <input bindinput="setId" type="number" placeholder="请输入学号" />
+        <input bindinput="setPassword" type="text" placeholder="请输入密码" password />
+    </view>
+    <button open-type="getUserInfo" bindgetuserinfo="login">
+        <text class="icon icon-login"></text>
+    </button>
+</view>

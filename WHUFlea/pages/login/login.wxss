@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "icon";
+    src: url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAKUAAsAAAAABlgAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcApYawE2AiQDCAsGAAQgBYRtBzkbmgXIDiVN08AA6gFARATf78d+z3sXE2kQRbNosoaXAFEsERIl6nRCIRT9Jfz9n8vcDUGovNMDJHXkC0nLv+83HTg2/tyAlGK/CTc5XZ+4d/on0AdpPaDc9qQ1BnUBdXEgBboHRpEVUMgNYzcRPMDHBEp1GlJY2jmqQrsErArEmecY0F4ISJKTLhYKGw4m8QAFirPL4gdwz78f/0xEO5mCHKhaPdi2Ye3rFmY1nefndigBQYJxvAA5xoFEbDYmljUJh2tSmmjWC45VHnzd5jm1i6NahPPXgdJy0K5Ln0mG5Y+azuCxpmoGOiddQDQr5/FilB+uns9Har1PlPcy0Fe9q7s+G1xdLU2ViKrGqr+/uTExM9lgISk6YQ1w5+/5P/qN43hs2u+b+m/vSuCzuBLwliSH4j05gz8iGziQYgWwZSmUNY5mms/UVqoU/5meWr9TjQ2nz4RiDRNcRToy5Ir1k4kdR4EykyhUbBalxuweL1NHaxKpBKNuNIRqr8hUekOu2huZ2B8UaPSHQtXRhFLbUXdhmcHwOhc1GUI2mmfoWSpm5JBOUV4mJwsNnVdwXp106oVxfGSsnN6lmPQSW9JjZ0KEkbWKcEd7jsJQYaKVT5aMuCLJwugoN71pxFIRdFqkEYMgNmQ6gzwWJcZ0vOisfL6MODIhg+7oG4nXES3lzY7GjRgbQO5q40F9j/JK6phjghAMMU2JoB1tHgmFFJQ0z/MRixjhToglFozCYTxUO7K9Pvq7E1AKmLKA7lzVk9f7nhGLygAAAAAA') format('woff2');
+}
+
+.icon-login::before {
+    content: "\e6a7";
+}
+
+page {
+    position: relative;
+    height: 100%;
+    background: #fff;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #276bc8;
+}
+
+.cover-gif {
+    position: absolute;
+    bottom: 598rpx;
+    width: 100%;
+    height: 120rpx;
+    mix-blend-mode: screen;
+    z-index: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 600rpx;
+    background: #fff;
+}
+
+.inputs {
+    position: relative;
+    left: 50rpx;
+    margin-right: 100rpx;
+    border-radius: 30rpx;
+    overflow: hidden;
+}
+
+.inputs input {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 45rpx;
+    width: 100%;
+    height: 112rpx;
+    background: #eee;
+    line-height: 112rpx;
+    font-size: 38rpx;
+}
+
+.inputs input:last-child::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 45rpx;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #e0e0e0;
+    transform-origin: 0 100%;
+    transform: scaleY(0.5);
+    z-index: 1;
+}
+
+button {
+    position: relative;
+    margin-top: 80rpx;
+    width: 140rpx;
+    height: 140rpx;
+    background: linear-gradient(to right, #276bc8, #7896d7);
+    border-radius: 50%;
+}
+
+button text {
+    display: block;
+    line-height: 140rpx;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 60rpx;
+}

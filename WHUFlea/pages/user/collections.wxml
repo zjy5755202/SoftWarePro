@@ -1,0 +1,15 @@
+<view class="navigation">
+    <text class="{{navigation == 0 ? 'active' : ''}}">物品</text>
+    <text class="{{navigation == 1 ? 'active' : ''}}">需求</text>
+</view>
+
+<swiper duration="200" bindanimationfinish="changeNavigation">
+    <swiper-item>
+        <scroll-view scroll-y bindscrolltolower="getProducts">
+            <products products="{{products}}" />
+            <loading atEnding="{{productAtEnding}}" />
+        </scroll-view>
+    </swiper-item>
+    <swiper-item>
+    </swiper-item>
+</swiper>

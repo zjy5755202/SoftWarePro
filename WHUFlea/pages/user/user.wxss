@@ -1,0 +1,73 @@
+@import "/assets/wxss/cells.wxss";
+
+@font-face {
+    font-family: "icon";
+    src: url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPYAAsAAAAACBAAAAOLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDTIMgATYCJAMQCwoABCAFhG0HRRsPB8iehbEzLQTDSuroDe4fbUZQrWXP3QZRAYEF0lHxRBrKxwLKKIvGRRhWEeqP2rTZbIWQunBmNTeyJEQKR+BU9Wte0deJv1xqnz91u8EvjqlL8Xzb2jGiqfN8tBvgKFoHFF1kmzBuGLuJ8iC2EyjXZjy0klVQAZQE9AvECa9rBSqllmqSQ6lQXDI1QdyAtdJsqeoBcM1/H38wFRTIFOUAhq7vZWoh5dPzU8Fz/s/RQBHAGc8IbRY5RoBEHJSat+DQNwIrd1pbmQNKlcoYqy7ztfK/IHH3Ii6Ff3mETE4UA0isBDOSP+fTE5MJPjPJZHwqEjeJTr1LUYZLAO8StiU8SaJODc72oZ2dfacPPK/qe1rR318JGw96Vg8Oth08OufIsmNzj1cQ4fKEzD44d/rcTR40Ghioovv6KoB+2AANT92RNZd7A08HB6s1/YV2Pdqjuds90fbl3rBxK2zpmeaTQbhHTr/Rl/A8kNXd0N8/AdGNeFzueXiw+vSLBwaSNvfgndY9d/BNbNtjtRMvvHl1a7tRrd+4Ujjp/uTu1dstvycMOsFy4kmFQSlZePBciJlKVd8XZ1G4eeaMZuTciGbNQM3UbPEe7YRiD+4pWHMwtjgQFXLafOQsn8pxKJ+a7vbG5cxFs39DHR6N6xac1yDdeufJSHN+QQbh2nw/jSbD+OVhe0hkcjJedo9BtXK7Sob0UXZjmfKhJ/5v6N+4/55oxY3jWZSuklduBxGgIH+D3Tk+vBUnB8ZX8LB/2s1F6i/rZseEr5TmonI+VCM2SNaCBO05P4bjcP4gp2VacnlAk5LNx2zPkqwl+slQrhz/LUS9x2NIm1onEko1xZAp0Qq5Uj3IhB2BIhVmoFipeSg3LHt2hQYSLJIaGLJQgFDrNGSqvUCu1kNkwj6CIs3eQrHawFBuI1yXrNAXPJ0ukVaZaJm2qQzPCu0c0sl0kFxGdIqpVUryOK6KSBbeyYQGhWSD2aSdSGOMsEzShckyx3CSYGayhN2IySQwoiQYCCsH6WVZjAsO5so+FMQKZqAtkxCtZIQWo81UDB5L0I6j2WV07vtlCB2FSSupJqXDWoWQWPCNM0IFCWmBzBa3t0q5llssJtEJI5NxGByJwIyRJRgJE/QJGGJ5JwOCJQui7+ERxQmWMnFtxUHzS81PuATKgdVTqBBGVsgais6VibxCWfSt7TqRbw+MgsKaKgAA') format('woff2');
+}
+
+.icon-demands:before {
+    content: "\e617";
+}
+
+.icon-products:before {
+    content: "\e645";
+}
+
+.icon-collections:before {
+    content: "\e675";
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    background: #276bc8;
+}
+
+.cover-user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+}
+
+.cover-gif {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120rpx;
+    mix-blend-mode: screen;
+    z-index: 1;
+}
+
+.apps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 15px 0 18px 0;
+    background: #fff;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.app-icon {
+    color: #276bc8;
+    font-size: 35px;
+    opacity: 0.85;
+}
+
+.app-name {
+    margin-top: 5px;
+    font-size: 15px;
+}

@@ -1,0 +1,4 @@
+<view class="loading">
+    <view class="icon" hidden="{{atEnding}}"></view>
+    <view class="text" hidden="{{!atEnding}}">没有更多</view>
+</view>

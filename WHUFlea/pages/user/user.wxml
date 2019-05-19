@@ -1,0 +1,32 @@
+<view class="cover">
+    <view class="cover-user">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <image class="cover-gif" src="/assets/img/wave.gif" mode="scaleToFill" />
+</view>
+
+<view class="apps">
+    <navigator url="mine" class="app" hover-class="none">
+        <text class="app-icon icon icon-products"></text>
+        <text class="app-name">我发布的</text>
+    </navigator>
+    <navigator url="collections" class="app" hover-class="none">
+        <text class="app-icon icon icon-collections"></text>
+        <text class="app-name">收藏</text>
+    </navigator>
+    <navigator url="demands" class="app" hover-class="none">
+        <text class="app-icon icon icon-demands"></text>
+        <text class="app-name">联系方式</text>
+    </navigator>
+</view>
+
+<!-- <view class="cells">
+    <navigator url="./universal/universal" class="cell" hover-class="none">
+        <view class="cell-bd">设置</view>
+        <view class="cell-ft cell-ft_arrow"></view>
+    </navigator>
+    <navigator url="./about/about" class="cell" hover-class="none">
+        <view class="cell-bd">关于</view>
+        <view class="cell-ft cell-ft_arrow"></view>
+    </navigator>
+</view> -->

@@ -1,0 +1,26 @@
+<swiper duration="200" indicator-dots circular>
+    <swiper-item wx:for="{{product.images}}" wx:for-item="image">
+        <image src="{{image}}" catchtap="previewImage" data-index="{{index}}" mode="aspectFill" />
+    </swiper-item>
+</swiper>
+<view class="product">
+    <view class="product-title">{{product.title}}</view>
+    <view class="product-price">
+        <text>￥</text>
+        <text>{{product.price}}</text>
+    </view>
+</view>
+
+<view class="user">
+    <image class="user-avatar" src="{{product.user.avatar}}" />
+    <view class="user-main">
+        <view class="user-name">{{product.user.nickname}}</view>
+        <view class="user-school">计算机学院</view>
+    </view>
+    <view class="user-contact">联系</view>
+</view>
+
+<view wx:if="{{product.user.id == id}}" class="panel">
+    <button>更新</button>
+    <button>删除</button>
+</view>

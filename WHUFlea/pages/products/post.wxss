@@ -1,0 +1,36 @@
+@import "/assets/wxss/cells.wxss";
+
+page {
+    height: 100%;
+}
+
+swiper {
+    width: 100%;
+    height: 61.8%;
+}
+
+swiper-item image {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -5px;
+}
+
+.detail {
+    position: relative;
+    padding: 10px 15px;
+    background: #fff;
+}
+
+.detail textarea {
+    width: 100%;
+    min-height: 150px;
+    line-height: 27px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.placeholder {
+    line-height: 27px;
+    text-align: justify;
+    font-size: 17px;
+}

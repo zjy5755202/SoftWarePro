@@ -1,0 +1,144 @@
+.cells-title {
+    position: relative;
+    padding: 11px 15px 4px 15px;
+    color: #888;
+    font-size: 13px;
+}
+
+.cells {
+    position: relative;
+    margin-top: 15px;
+    background: #fff;
+    font-size: 17px;
+}
+
+.cells_after-title {
+    margin-top: 0;
+}
+
+.cells_no-margin {
+    margin-top: 0;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 15px;
+    min-height: 45px;
+}
+
+.cell::before {
+    content: " ";
+    position: absolute;
+    top: -1px;
+    left: 15px;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #efefef;
+    transform-origin: 0 100%;
+    transform: scaleY(0.5);
+}
+
+.cell:first-child::before {
+    display: none;
+}
+
+.cell_with-icon::before {
+    left: 49px;
+}
+
+/* 调整按钮的右边距 */
+
+.cell switch {
+    margin-right: -4px;
+}
+
+/* 行头 */
+
+.cell-hd {
+    width: 105px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/* 行图标 */
+
+.cell-hd_icon {
+    margin-right: 12px;
+    width: 22px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* 行中 */
+
+.cell-bd {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+}
+
+/* 行尾 */
+
+.cell-ft {
+    text-align: right;
+    color: #888;
+}
+
+/* 行尾的箭头 */
+
+.cell-ft_arrow {
+    padding-right: 15px;
+    position: relative;
+}
+
+.cell-ft_arrow::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    margin-top: -3px;
+    width: 6px;
+    height: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #c8c8c8;
+    border-style: solid;
+    transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
+}
+
+/* 行里的input */
+
+.cell-input {
+    height: 45px;
+    line-height: 45px;
+}
+
+.cell-select {
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cell-select::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    margin-top: -3px;
+    width: 6px;
+    height: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #c8c8c8;
+    border-style: solid;
+    transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
+}

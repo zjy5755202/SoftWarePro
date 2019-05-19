@@ -1,0 +1,17 @@
+<view class="products" style="margin-top:{{top}}px">
+    <view class="product" wx:for="{{products}}" wx:for-item="product" wx:key="id">
+        <view class="product-user">
+            <image src="{{product.user.avatar}}" />
+            <text>{{product.user.nickname}}</text>
+        </view>
+        <image class="product-cover" src="{{product.images[0]}}" mode="aspectFill" catchtap="goToDetail" data-index="{{index}}" />
+        <view class="product-title">{{product.title}}</view>
+        <view class="product-more">
+            <view class="product-price">
+                <text>￥</text>
+                <text>{{product.price}}</text>
+            </view>
+            <view class="product-star">♥</view>
+        </view>
+    </view>
+</view>

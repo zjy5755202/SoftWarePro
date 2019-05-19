@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/products/products",
+    "pages/products/detail",
+    "pages/products/post",
+    "pages/products/search",
+    "pages/demands/demands",
+    "pages/user/user",
+    "pages/user/mine",
+    "pages/user/collections"
+  ],
+  "window": {
+    "backgroundColor": "#f1f1f1",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "WHUFlea",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#aaaaaa",
+    "selectedColor": "#276bc8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/products/products",
+        "text": "物品"
+      },
+      {
+        "pagePath": "pages/demands/demands",
+        "text": "需求"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
